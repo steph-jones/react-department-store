@@ -14,7 +14,8 @@ gem 'bootsnap', '>= 1.1.0', require: false
 
 group :development, :test do
   gem 'pry-rails'
-  gem 'faker', :git => 'https://github.com/stympy/faker.git', :branch => 'master'
+  gem 'faker'
+  # , :git => 'https://github.com/stympy/faker.git', :branch => 'master'
   gem 'awesome_print'
   gem 'table_print'
 end
